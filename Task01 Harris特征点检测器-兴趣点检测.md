@@ -60,7 +60,7 @@ $$
 E(u,v) = \sum_{x,y}{w(x,y){[I(x+u,y+v)-I(x,y)]}^{2}}
 $$
 根据二维泰勒公式展开：
-$$
+$
 \begin{equation}
 \begin{aligned}
 E(u,v) &\approx \sum_{x,y \in W}{w(x,y){[I(x,y)+uI_x+vI_y-I(x,y)]}^{2}} \\
@@ -72,9 +72,9 @@ E(u,v) &\approx \sum_{x,y \in W}{w(x,y){[I(x,y)+uI_x+vI_y-I(x,y)]}^{2}} \\
   &= \begin{bmatrix}u&v\end{bmatrix}M\begin{bmatrix}u\\v\end{bmatrix}
 \end{aligned}
 \end{equation}
-$$
+$
 其中$I_x,I_y$分别为窗口内像素点$(x,y)$在$x$方向上和$y$方向上的梯度值。矩阵$M$为：
-$$
+$
 \begin{equation}
 \begin{aligned}
 M &= \sum_{(x,y)\in W}{w(x,y) \begin{bmatrix}I_x^2 & I_xI_y\\
@@ -82,7 +82,7 @@ M &= \sum_{(x,y)\in W}{w(x,y) \begin{bmatrix}I_x^2 & I_xI_y\\
   &=R^{-1}\begin{bmatrix}\lambda_1 & 0\\0 & \lambda_2\end{bmatrix}R
 \end{aligned}
 \end{equation}
-$$
+$
 最后使用实对称矩阵对角化处理后得到我们想要的结果。
 
 ### 1.2.2 计算对应的角点响应函数$R$
