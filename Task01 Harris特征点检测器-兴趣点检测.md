@@ -272,7 +272,7 @@ Harris角点检测的性质：
 
   因为在进行Harris角点检测时，使用了微分算子对图像进行微分运算，而微分运算对图像密度的拉升或收缩和对亮度的抬高或下降不敏感。换言之，对亮度和对比度的仿射变换并不改变Harris响应的极值点出现的位置，但是，由于阈值的选择，可能会影响角点检测的数量。
 
-  ![image-20200623145505861](../../../AppData/Roaming/Typora/typora-user-images/image-20200623145505861.png)
+  ![image-20200623145505861](image1-3.png)
 
   左图表示亮度变化，右图表示对比度变化。
 
@@ -290,7 +290,7 @@ Harris角点检测的性质：
 
 ## 参考
 
-[Task01 Harris特征点检测器-兴趣点检测]([https://github.com/datawhalechina/team-learning/blob/master/03%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E5%9F%BA%E7%A1%80%EF%BC%9A%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%EF%BC%88%E4%B8%8B%EF%BC%89/Task01%20Harris%E7%89%B9%E5%BE%81%E7%82%B9%E6%A3%80%E6%B5%8B.md](https://github.com/datawhalechina/team-learning/blob/master/03 计算机视觉/计算机视觉基础：图像处理（下）/Task01 Harris特征点检测.md))
+[Task01 Harris特征点检测器-兴趣点检测](https://github.com/datawhalechina/team-learning/blob/master/03%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E5%9F%BA%E7%A1%80%EF%BC%9A%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%EF%BC%88%E4%B8%8B%EF%BC%89/Task01%20Harris%E7%89%B9%E5%BE%81%E7%82%B9%E6%A3%80%E6%B5%8B.md)
 
 [角点检测：Harris 与 Shi-Tomasi](https://zhuanlan.zhihu.com/p/83064609)
 
